@@ -3,66 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | [Your Name]</title>
-    <link rel="stylesheet" href="home/portfolio.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo">Portfolio.</div>
+        <div class="logo">MyDevJourney</div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#experience">IT Experience</a></li>
+            <li><a href="#it-exp">IT Experience</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#goals">Dreams</a></li>
             <li><a href="#gallery">Gallery</a></li>
         </ul>
     </nav>
 
     <header class="hero">
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>IT Student | Aspiring Developer | Tech Enthusiast</p>
+        <h1>Welcome to My World</h1>
+        <p>IT Student | Creative Thinker | Problem Solver</p>
     </header>
 
-    <main class="container">
-        <section id="about" class="card">
+    <div class="container">
+        
+        <section id="about" class="section-card">
             <h2>About Me</h2>
-            <p>I am currently a <strong>[Year]</strong> student taking <strong>[Course Name]</strong>. I am passionate about solving problems through code.</p>
+            <p>Hello! I am currently a student enrolled in <strong>[Your Course Name here]</strong>. I am passionate about technology and how it shapes our future.</p>
         </section>
 
-        <section id="education" class="card">
+        <section id="education" class="section-card">
             <h2>Education & Achievements</h2>
-            <ul>
-                <li><strong>College:</strong> [University Name] (Expected 20XX)</li>
-                <li><strong>Achievement:</strong> [e.g., Dean's List / Certification]</li>
+            <div class="info-grid">
+                <div class="item">
+                    <h3>[School Name]</h3>
+                    <p>Current Year/Level</p>
+                </div>
+                <div class="item">
+                    <h3>Achievements</h3>
+                    <p>[List honors, certificates, or awards here]</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="it-exp" class="section-card">
+            <h2>IT Experience</h2>
+            <p>I have experience working with:</p>
+            <ul class="skills-list">
+                <li>Web Development (HTML, CSS, JS)</li>
+                <li>[Tool/Language 2]</li>
+                <li>[Tool/Language 3]</li>
             </ul>
         </section>
 
-        <section id="experience" class="card">
-            <h2>IT Experience</h2>
-            <div class="skill-grid">
-                <span>HTML/CSS</span>
-                <span>JavaScript</span>
-                <span>Python</span>
+        <section id="hobbies" class="section-card">
+            <h2>Hobbies & Interests</h2>
+            <div class="hobbies-container">
+                <span class="tag">Gaming</span>
+                <span class="tag">Coding</span>
+                <span class="tag">Photography</span>
+                <span class="tag">Traveling</span>
             </div>
-            <p>Worked on projects involving [Description of a project or skill].</p>
         </section>
 
-        <section id="goals" class="card">
+        <section id="goals" class="section-card goal-highlight">
             <h2>Goals & Dreams</h2>
-            <p>My ultimate dream is to <strong>[Your Dream]</strong> and contribute to the world of [Your Field].</p>
+            <p>"To become a <strong>[Your Dream Career]</strong> and use technology to create sustainable solutions for the community."</p>
         </section>
 
-        <section id="gallery" class="card">
+        <section id="gallery" class="section-card">
             <h2>Picture Gallery</h2>
-            <div class="gallery-placeholder">
-                <p>(Vue.js Gallery coming soon...)</p>
+            <div class="gallery-grid">
+                <div class="photo-slot">Image Placeholder 1</div>
+                <div class="photo-slot">Image Placeholder 2</div>
+                <div class="photo-slot">Image Placeholder 3</div>
             </div>
         </section>
-    </main>
 
-    <footer>
-        <p>Resources: Fonts from Google Fonts. Icons from FontAwesome.</p>
+    </div>
+
+    <footer class="footer">
+        <p><strong>Resources Used:</strong></p>
+        <ul>
+            <li>Fonts: <a href="https://fonts.google.com/">Google Fonts</a></li>
+            <li>Design: Inspired by Minimalist UI/UX Principles</li>
+            <li>AI Assistance: Gemini (Google)</li>
+        </ul>
         <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
     </footer>
 
